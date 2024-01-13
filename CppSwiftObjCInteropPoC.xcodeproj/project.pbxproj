@@ -16,7 +16,6 @@
 		E81F2DA22B520C1A002647AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DA12B520C1A002647AB /* main.m */; };
 		E81F2DAC2B520C1A002647AB /* CppSwiftObjCInteropPoCTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DAB2B520C1A002647AB /* CppSwiftObjCInteropPoCTests.mm */; };
 		E81F2DB62B520C1A002647AB /* CppSwiftObjCInteropPoCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DB52B520C1A002647AB /* CppSwiftObjCInteropPoCUITests.m */; };
-		E81F2DB82B520C1A002647AB /* CppSwiftObjCInteropPoCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DB72B520C1A002647AB /* CppSwiftObjCInteropPoCUITestsLaunchTests.m */; };
 		E81F2DC62B520CAE002647AB /* DataToArrayOfUInt8Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DC52B520CAE002647AB /* DataToArrayOfUInt8Swift.swift */; };
 		E81F2DCC2B520D88002647AB /* DataToArrayOfUInt8Cpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DCB2B520D88002647AB /* DataToArrayOfUInt8Cpp.mm */; };
 		E81F2DCF2B520EDB002647AB /* DataToArrayOfUInt8SwiftBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DCE2B520EDB002647AB /* DataToArrayOfUInt8SwiftBridge.m */; };
@@ -56,7 +55,6 @@
 		E81F2DAB2B520C1A002647AB /* CppSwiftObjCInteropPoCTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CppSwiftObjCInteropPoCTests.mm; sourceTree = "<group>"; };
 		E81F2DB12B520C1A002647AB /* CppSwiftObjCInteropPoCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CppSwiftObjCInteropPoCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81F2DB52B520C1A002647AB /* CppSwiftObjCInteropPoCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CppSwiftObjCInteropPoCUITests.m; sourceTree = "<group>"; };
-		E81F2DB72B520C1A002647AB /* CppSwiftObjCInteropPoCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CppSwiftObjCInteropPoCUITestsLaunchTests.m; sourceTree = "<group>"; };
 		E81F2DC42B520CAE002647AB /* CppSwiftObjCInteropPoC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CppSwiftObjCInteropPoC-Bridging-Header.h"; sourceTree = "<group>"; };
 		E81F2DC52B520CAE002647AB /* DataToArrayOfUInt8Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataToArrayOfUInt8Swift.swift; sourceTree = "<group>"; };
 		E81F2DCA2B520D88002647AB /* DataToArrayOfUInt8Cpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataToArrayOfUInt8Cpp.h; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				E81F2DB52B520C1A002647AB /* CppSwiftObjCInteropPoCUITests.m */,
-				E81F2DB72B520C1A002647AB /* CppSwiftObjCInteropPoCUITestsLaunchTests.m */,
 			);
 			path = CppSwiftObjCInteropPoCUITests;
 			sourceTree = "<group>";
@@ -307,7 +304,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E81F2DB62B520C1A002647AB /* CppSwiftObjCInteropPoCUITests.m in Sources */,
-				E81F2DB82B520C1A002647AB /* CppSwiftObjCInteropPoCUITestsLaunchTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
