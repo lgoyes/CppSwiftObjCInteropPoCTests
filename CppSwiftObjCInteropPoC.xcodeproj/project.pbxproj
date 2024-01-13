@@ -14,9 +14,12 @@
 		E81F2D9C2B520C1A002647AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81F2D9B2B520C1A002647AB /* Assets.xcassets */; };
 		E81F2D9F2B520C1A002647AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81F2D9D2B520C1A002647AB /* LaunchScreen.storyboard */; };
 		E81F2DA22B520C1A002647AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DA12B520C1A002647AB /* main.m */; };
-		E81F2DAC2B520C1A002647AB /* CppSwiftObjCInteropPoCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DAB2B520C1A002647AB /* CppSwiftObjCInteropPoCTests.m */; };
+		E81F2DAC2B520C1A002647AB /* CppSwiftObjCInteropPoCTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DAB2B520C1A002647AB /* CppSwiftObjCInteropPoCTests.mm */; };
 		E81F2DB62B520C1A002647AB /* CppSwiftObjCInteropPoCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DB52B520C1A002647AB /* CppSwiftObjCInteropPoCUITests.m */; };
 		E81F2DB82B520C1A002647AB /* CppSwiftObjCInteropPoCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DB72B520C1A002647AB /* CppSwiftObjCInteropPoCUITestsLaunchTests.m */; };
+		E81F2DC62B520CAE002647AB /* DataToArrayOfUInt8Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DC52B520CAE002647AB /* DataToArrayOfUInt8Swift.swift */; };
+		E81F2DCC2B520D88002647AB /* DataToArrayOfUInt8Cpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DCB2B520D88002647AB /* DataToArrayOfUInt8Cpp.mm */; };
+		E81F2DCF2B520EDB002647AB /* DataToArrayOfUInt8SwiftBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = E81F2DCE2B520EDB002647AB /* DataToArrayOfUInt8SwiftBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +53,17 @@
 		E81F2DA02B520C1A002647AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E81F2DA12B520C1A002647AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E81F2DA72B520C1A002647AB /* CppSwiftObjCInteropPoCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CppSwiftObjCInteropPoCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E81F2DAB2B520C1A002647AB /* CppSwiftObjCInteropPoCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CppSwiftObjCInteropPoCTests.m; sourceTree = "<group>"; };
+		E81F2DAB2B520C1A002647AB /* CppSwiftObjCInteropPoCTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CppSwiftObjCInteropPoCTests.mm; sourceTree = "<group>"; };
 		E81F2DB12B520C1A002647AB /* CppSwiftObjCInteropPoCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CppSwiftObjCInteropPoCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81F2DB52B520C1A002647AB /* CppSwiftObjCInteropPoCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CppSwiftObjCInteropPoCUITests.m; sourceTree = "<group>"; };
 		E81F2DB72B520C1A002647AB /* CppSwiftObjCInteropPoCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CppSwiftObjCInteropPoCUITestsLaunchTests.m; sourceTree = "<group>"; };
+		E81F2DC42B520CAE002647AB /* CppSwiftObjCInteropPoC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CppSwiftObjCInteropPoC-Bridging-Header.h"; sourceTree = "<group>"; };
+		E81F2DC52B520CAE002647AB /* DataToArrayOfUInt8Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataToArrayOfUInt8Swift.swift; sourceTree = "<group>"; };
+		E81F2DCA2B520D88002647AB /* DataToArrayOfUInt8Cpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataToArrayOfUInt8Cpp.h; sourceTree = "<group>"; };
+		E81F2DCB2B520D88002647AB /* DataToArrayOfUInt8Cpp.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DataToArrayOfUInt8Cpp.mm; sourceTree = "<group>"; };
+		E81F2DCD2B520EDB002647AB /* DataToArrayOfUInt8SwiftBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataToArrayOfUInt8SwiftBridge.h; sourceTree = "<group>"; };
+		E81F2DCE2B520EDB002647AB /* DataToArrayOfUInt8SwiftBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataToArrayOfUInt8SwiftBridge.m; sourceTree = "<group>"; };
+		E81F2DD02B520EF4002647AB /* ArrayOfUInt8Convertable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayOfUInt8Convertable.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +120,18 @@
 				E81F2D932B520C18002647AB /* SceneDelegate.m */,
 				E81F2D952B520C18002647AB /* ViewController.h */,
 				E81F2D962B520C18002647AB /* ViewController.m */,
+				E81F2DC52B520CAE002647AB /* DataToArrayOfUInt8Swift.swift */,
+				E81F2DCD2B520EDB002647AB /* DataToArrayOfUInt8SwiftBridge.h */,
+				E81F2DCE2B520EDB002647AB /* DataToArrayOfUInt8SwiftBridge.m */,
+				E81F2DD02B520EF4002647AB /* ArrayOfUInt8Convertable.h */,
+				E81F2DCA2B520D88002647AB /* DataToArrayOfUInt8Cpp.h */,
+				E81F2DCB2B520D88002647AB /* DataToArrayOfUInt8Cpp.mm */,
 				E81F2D982B520C18002647AB /* Main.storyboard */,
 				E81F2D9B2B520C1A002647AB /* Assets.xcassets */,
 				E81F2D9D2B520C1A002647AB /* LaunchScreen.storyboard */,
 				E81F2DA02B520C1A002647AB /* Info.plist */,
 				E81F2DA12B520C1A002647AB /* main.m */,
+				E81F2DC42B520CAE002647AB /* CppSwiftObjCInteropPoC-Bridging-Header.h */,
 			);
 			path = CppSwiftObjCInteropPoC;
 			sourceTree = "<group>";
@@ -122,7 +139,7 @@
 		E81F2DAA2B520C1A002647AB /* CppSwiftObjCInteropPoCTests */ = {
 			isa = PBXGroup;
 			children = (
-				E81F2DAB2B520C1A002647AB /* CppSwiftObjCInteropPoCTests.m */,
+				E81F2DAB2B520C1A002647AB /* CppSwiftObjCInteropPoCTests.mm */,
 			);
 			path = CppSwiftObjCInteropPoCTests;
 			sourceTree = "<group>";
@@ -203,6 +220,7 @@
 				TargetAttributes = {
 					E81F2D8B2B520C18002647AB = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 					E81F2DA62B520C1A002647AB = {
 						CreatedOnToolsVersion = 14.1;
@@ -266,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81F2DCC2B520D88002647AB /* DataToArrayOfUInt8Cpp.mm in Sources */,
 				E81F2D972B520C18002647AB /* ViewController.m in Sources */,
+				E81F2DC62B520CAE002647AB /* DataToArrayOfUInt8Swift.swift in Sources */,
 				E81F2D912B520C18002647AB /* AppDelegate.m in Sources */,
+				E81F2DCF2B520EDB002647AB /* DataToArrayOfUInt8SwiftBridge.m in Sources */,
 				E81F2DA22B520C1A002647AB /* main.m in Sources */,
 				E81F2D942B520C18002647AB /* SceneDelegate.m in Sources */,
 			);
@@ -277,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81F2DAC2B520C1A002647AB /* CppSwiftObjCInteropPoCTests.m in Sources */,
+				E81F2DAC2B520C1A002647AB /* CppSwiftObjCInteropPoCTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5W5Y54862B;
@@ -458,6 +480,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.goyes.CppSwiftObjCInteropPoC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CppSwiftObjCInteropPoC/CppSwiftObjCInteropPoC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -467,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5W5Y54862B;
@@ -485,6 +511,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.goyes.CppSwiftObjCInteropPoC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CppSwiftObjCInteropPoC/CppSwiftObjCInteropPoC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -492,6 +520,7 @@
 		E81F2DBF2B520C1A002647AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -510,6 +539,7 @@
 		E81F2DC02B520C1A002647AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -528,6 +558,7 @@
 		E81F2DC22B520C1A002647AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5W5Y54862B;
@@ -544,6 +575,7 @@
 		E81F2DC32B520C1A002647AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5W5Y54862B;
